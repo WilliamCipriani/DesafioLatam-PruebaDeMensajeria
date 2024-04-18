@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.contenerdor-principal {
+.contenedor-principal {
   display: flex;
 }
 
@@ -17,4 +17,37 @@
   border: 1px solid  red;
   width:  75%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.main-logo {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+
+.main-imagen {
+  width: 60%;
+}
+
+.main-imagen img{
+  width: 100%;
+}
+
+.main-texto h1,p{
+  width: 100%;
+}
+
+.main-texto h1{
+  font-size: 35px;
+}
+
+.main-texto p{
+  font-size: 15px;
 }
